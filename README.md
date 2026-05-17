@@ -17,12 +17,17 @@ Durante a atividade foram aplicadas quatro ferramentas essenciais para o fluxo d
 
 - **Git:** para controle de versão local e gerenciamento de commits 
 - **GitHub:** para hospedagem do código na nuvem e compartilhamento público 
-- **GitHub Pages:** para deploy automatizado do portfólio web 
 - **LinkedIn:** para exposição do portfólio e conexões profissionais 
+
+## Aplicativos
+
+- **GitHub:**
+- **LinkedIn:** https://www.linkedin.com/in/thiago-seabra-aquino-b605103b0/
+- **Site:** https://sites.google.com/view/thiagoportifolio/p%C3%A1gina-inicial
 
 ## Estrutura do repositório
 
-[cite_start]O repositório foi organizado de forma simples através das seguintes pastas e seções mínimas[cite: 34]:
+O repositório foi organizado de forma simples através das seguintes pastas e seções mínimas[cite: 34]:
 
 ```text
 ├── README.md               # Planejamento e documentação da entrega (este arquivo)
