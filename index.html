@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Seabra Aquino | Portfólio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-main: #c9d1d9;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --border-color: #30363d;
+            --success: #238636;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            margin: 0.5rem 0 1.5rem 0;
+        }
+
+        .badges-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .badges-container img {
+            margin: 0 4px 8px 4px;
+            vertical-align: middle;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            color: #ffffff;
+            font-size: 1.6rem;
+        }
+
+        .links-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .links-list li {
+            margin-bottom: 0.8rem;
+        }
+
+        .links-list a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .links-list a:hover {
+            text-decoration: underline;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1.2rem;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #ffffff;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        .btn-video {
+            display: inline-block;
+            background-color: var(--success);
+            color: #ffffff;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            margin-top: 0.5rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn-video:hover {
+            background-color: #2ea043;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Thiago Seabra Aquino</h1>
+        <p>Estudante de Ciência da Computação</p>
+        
+        <div class="badges-container">
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+            <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="Linguagem C" />
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+            <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="sobre">
+            <h2>👤 Sobre Mim</h2>
+            <p>Olá! Tenho 18 anos e sou estudante de Ciência da Computação. Estou focado em construir uma base sólida em desenvolvimento de software, algoritmos e engenharia de dados. Utilizo este portfólio para centralizar e documentar de forma organizada meus estudos universitários, projetos práticos e iniciativas pessoais, aplicando sempre boas práticas de mercado e versionamento de código.</p>
+        </section>
+
+        <section id="estrutura">
+            <h2>📌 Estrutura do Repositório</h2>
+            <p>Meus códigos estão organizados de maneira modular e simples através das seguintes seções de desenvolvimento:</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>📁 projetos/academicos/</h3>
+                    <p>Contém os trabalhos estruturados desenvolvidos para a faculdade nas disciplinas de Banco de Dados e Lógica de Programação.</p>
+                </div>
+                <div class="card">
+                    <h3>📁 projetos/pessoais/</h3>
+                    <p>Espaço focado em estudos independentes de tecnologia, automações e arquitetura web-development.</p>
+                </div>
+                <div class="card">
+                    <h3>📁 documentacao/</h3>
+                    <p>Reservado para o armazenamento de materiais de apoio, apresentações, relatórios e slides do curso.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="aplicativos">
+            <h2>📱 Aplicativos e Redes</h2>
+            <p>Você pode acompanhar minha evolução e entrar em contato através das seguintes plataformas:</p>
+            <ul class="links-list">
+                <li>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/thiago-seabra-aquino-b605103b0/" target="_blank">thiago-seabra-aquino</a></li>
+                <li>🐙 <strong>GitHub:</strong> <a href="https://github.com/thigoxz" target="_blank">github.com/thigoxz</a></li>
+                <li>🌐 <strong>Google Sites:</strong> <a href="https://sites.google.com/view/thiagoportifolio/p%C3%A1gina-inicial" target="_blank">thiagoportifolio</a></li>
+            </ul>
+        </section>
+
+        <section id="apresentacao">
+            <h2>📹 Vídeo de Apresentação</h2>
+            <p>Gravei uma breve defesa técnica de 5 minutos detalhando a estrutura lógica, escolhas de diretórios e o fluxo de versionamento aplicados neste repositório.</p>
+            <a href="SUA_URL_DO_YOUTUBE_AQUI" class="btn-video" target="_blank">▶ Assistir Apresentação no YouTube</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 • Thiago Seabra Aquino • Desenvolvido para fins acadêmicos e profissionais.</p>
+    </footer>
+
+</body>
+</html>
