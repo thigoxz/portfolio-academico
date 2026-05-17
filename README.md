@@ -1,23 +1,24 @@
-# Desafio — Entrega Intermediária: Criação de Repositório com Versionamento
+# Portifólio
 
-[cite_start]Este repositório faz parte do desafio prático de versionamento e organização de código[cite: 1, 2]. [cite_start]O objetivo principal foi estruturar um espaço no GitHub para armazenar projetos acadêmicos e pessoais, aplicando boas práticas de Git e preparando o material para integração com o LinkedIn[cite: 5, 6].
+
+Este repositório faz parte do desafio prático de versionamento e organização de código. O objetivo principal foi estruturar um espaço no GitHub para armazenar projetos acadêmicos e pessoais, aplicando boas práticas de Git e preparando o material para integração com o LinkedIn.
 
 ## Objetivos da atividade
 
-Planejar e estabelecer uma estrutura básica de diretórios no repositório [cite: 35, 38]
-Aplicar conceitos de versionamento local (Git) e remoto (GitHub) [cite: 16, 17]
-Desenvolver e publicar uma página web utilizando o GitHub Pages [cite: 18, 48]
-Integrar os projetos com o perfil profissional do LinkedIn [cite: 19, 52]
-Preparar uma apresentação técnica em vídeo sobre o repositório [cite: 56, 57]
+Planejar e estabelecer uma estrutura básica de diretórios no repositório 
+Aplicar conceitos de versionamento local (Git) e remoto (GitHub) 
+Desenvolver e publicar uma página web utilizando o GitHub Pages 
+Integrar os projetos com o perfil profissional do LinkedIn 
+Preparar uma apresentação técnica em vídeo sobre o repositório 
 
 ## Ferramentas utilizadas
 
 Durante a atividade foram aplicadas quatro ferramentas essenciais para o fluxo de trabalho:
 
-- **Git:** para controle de versão local e gerenciamento de commits [cite: 16]
-- **GitHub:** para hospedagem do código na nuvem e compartilhamento público [cite: 17, 53]
-- **GitHub Pages:** para deploy automatizado do portfólio web [cite: 18, 48]
-- **LinkedIn:** para exposição do portfólio e conexões profissionais [cite: 19, 52]
+- **Git:** para controle de versão local e gerenciamento de commits 
+- **GitHub:** para hospedagem do código na nuvem e compartilhamento público 
+- **GitHub Pages:** para deploy automatizado do portfólio web 
+- **LinkedIn:** para exposição do portfólio e conexões profissionais 
 
 ## Estrutura do repositório
 
