@@ -32,7 +32,7 @@ Aqui estão as principais linguagens, ferramentas e tecnologias que utilizo nos 
 - **GitHub:** https://github.com/thigoxz
 - **LinkedIn:** https://www.linkedin.com/in/thiago-seabra-aquino-b605103b0/
 - **Site:** https://sites.google.com/view/thiagoportifolio/p%C3%A1gina-inicial
-- **Vídeo de Apresentação:** [SEU_LINK_DO_VIDEO_DO_YOUTUBE_AQUI]
+
 
 ## 📌 Estrutura do repositório
 
